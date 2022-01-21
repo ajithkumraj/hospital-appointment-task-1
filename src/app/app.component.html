@@ -27,13 +27,21 @@
         <input type="radio" value="male">male<br>
         <input type="radio" value="male">female<br>
       -->
-    <label>gender</label><br />
-    <input type="radio" id="male" value="male"  />
+    <!-- <label>gender</label><br />
+    <input type="radio" id="male" value="male" name="male" />
       <label for="male">male</label><br />
       <input type="radio" id="female" value="female" />  
     <label for="female">female</label><br />
       <input type="radio" id="others" value="others" />  
-    <label for="others">others</label><br />
+    <label for="others">others</label><br /> -->
+    <legend>gender</legend>
+    <label for="male">male</label>
+    <input type="radio" name="gender" id="male" value="male" checked>
+    <label for="male">female</label>
+    <input type="radio" name="gender" id="male" value="male" checked>
+    <label for="male">others</label>
+    <input type="radio" name="gender" id="male" value="male" checked>
+<br>
     <label>appointment type<br /><input type="text" /><br /></label>
     <label>appointment date<br /><input type="date" id="date" /><br /></label>
     <label>appointment time<br /><input type="time" /></label>
